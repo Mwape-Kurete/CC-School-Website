@@ -1,0 +1,2 @@
+/*use this file for base css with tailwind. Include in <head> attribute as a <link> with rel="stylesheet" when you want to use tailwind*/
+@import 'tailwindcss';
