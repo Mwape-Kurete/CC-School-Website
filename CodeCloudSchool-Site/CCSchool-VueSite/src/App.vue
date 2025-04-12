@@ -14,8 +14,9 @@ import NavBar from './components/NavBar.vue'
 /* Global reset */
 html, body, #app {
   margin: 0;
-  padding: 30;
+  padding: 0;
   width: 100%;
   min-height: 100vh;
+  background-color: #F7F6FB;
 }
 </style>
