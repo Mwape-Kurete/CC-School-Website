@@ -5,8 +5,13 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        josefin: ['Josefin Sans', 'sans-serif'],
+        quicksand: ['Quicksand', 'sans-serif'],
+      },
+    },
   },
-  plugins: [],
+  plugins: [require('tailwindcss-primeui')],
 }
 

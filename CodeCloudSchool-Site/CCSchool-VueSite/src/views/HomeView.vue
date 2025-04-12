@@ -1,12 +1,17 @@
 <script setup lang="ts">
 import TheWelcome from '../components/TheWelcome.vue'
+import Welcome from '../components/Welcome.vue'
+
+
 </script>
 
 <template>
   <main>
     <div class="home">
-      <h1 class="text-3xl font-bold mb-4">Welcome to My Site!</h1>
-      <p class="text-lg">This is my custom landing page.</p>
+      <!--<h1 class="text-3xl font-bold mb-4">Welcome to My Site!</h1>
+      <p class="text-lg">This is my custom landing page.</p>-->
+      <Welcome />
+      <info-section />
 
     </div>
   </main>
