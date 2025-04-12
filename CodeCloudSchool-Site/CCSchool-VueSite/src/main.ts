@@ -9,3 +9,5 @@ const app = createApp(App)
 app.use(router)
 
 app.mount('#app')
+
+// we don't touch this file
