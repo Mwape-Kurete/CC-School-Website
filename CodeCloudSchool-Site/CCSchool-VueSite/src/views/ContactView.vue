@@ -1,5 +1,5 @@
 <script>
-import ContactForm from '@/components/ContactForm.vue'; 
+import ContactForm from '../components/ContactForm.vue'; 
 </script>
 
 <template>
@@ -10,8 +10,9 @@ import ContactForm from '@/components/ContactForm.vue';
           <p>Have a question about our programs, enrollment, or certifications? Need help choosing the right course for your goals? Our team is here to help every step of the way.</p>
           <p><i>Reach out to us and we’ll get back to you within 24–48 hours.</i></p>
         </div>
-        <div class="contact-info-sect col-span-6"></div>
-        <div class="form-sect col-span-6"></div>
+        <div class="form-sect col-span-12">
+          <ContactForm />
+        </div>
         <div class="faq-sect col-span-12"></div>
     </div>
   </main>
