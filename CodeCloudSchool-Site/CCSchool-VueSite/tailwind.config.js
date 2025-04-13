@@ -12,6 +12,9 @@ export default {
       },
     },
   },
-  plugins: [require('tailwindcss-primeui')],
+  plugins: [
+    // Only include if you're actually using PrimeUI (not PrimeVue)
+    // require('tailwindcss-primeui')
+  ],
+  darkMode: 'class', // Add this if you want dark mode support
 }
-

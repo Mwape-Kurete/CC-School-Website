@@ -1,3 +1,4 @@
+
 <template>
     <div class="container">
       <div class="welcome-block">
@@ -9,9 +10,9 @@
       </div>
   
       <div class="info-section">
-        <div class="title">Learn In-Demand Tech Skills. <br>
+        <div class="title">Learn Tech Skills. <br>
             Get Certified. <br>
-            Launch Your Career.   *</div>
+            Launch Your Career.  ✽</div>
         <p>Code & Cloud Academy is your gateway to the digital world. We offer fully online,
           career-focused programs designed to take you from beginner to certified tech professional
          in just 9 months. Whether you're looking to become a software developer, cloud architect, IT technician, digital
@@ -20,7 +21,6 @@
           src="@/assets/header2.png" 
           alt="Cloud + Code School"
           class="header-image2">
-          - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
         </p>
       </div>
       
@@ -78,7 +78,7 @@
 }
 
 .title {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 500;
   flex: 1; /* Takes up 1 part of available space */
 }
