@@ -73,9 +73,6 @@
     </div>
 </template>
 
-<script setup>
-// No script logic needed
-</script>
 
 <style scoped>
 .feature-blocks-container {

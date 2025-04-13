@@ -4,7 +4,7 @@
             <!-- Call to Action Section -->
             <div class="cta-section">
                 <div class="cta-content">
-                <h3>👉 Ready to Start Your Journey?</h3>
+                <h3>❋ Ready to Start Your Journey? ❋</h3>
                 <p>Choose your program, enroll today, and transform your future in just 9 months.</p>
                 <div class="cta-buttons">
                     <a href="/courses" class="cta-button">🎓 Browse Courses</a>
@@ -71,9 +71,7 @@
     </footer>
   </template>
   
-  <script setup>
-  // No script logic needed unless you want to make it dynamic
-  </script>
+
   
   <style scoped>
   .site-footer {
@@ -86,7 +84,7 @@
     background-color: #F7F6FB;
     color: #333333;
     padding-top: 3rem;
-    border-top: 1px solid #e5e7eb;
+
   }
   
   .footer-full-width {

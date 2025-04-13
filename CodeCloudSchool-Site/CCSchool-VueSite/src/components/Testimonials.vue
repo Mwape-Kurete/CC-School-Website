@@ -30,9 +30,7 @@
     </div>
   </template>
   
-  <script setup>
-  // No script logic needed unless you want to make it dynamic
-  </script>
+
   
   <style scoped>
   .testimonials-container {
