@@ -2,17 +2,18 @@
     <div class="career-starts-container">
       <div class="career-content">
         <div class="career-text">
-          <h2 class="career-title">🎯 Your Career Starts Here</h2>
+          <h2 class="career-title">❋ Your Career <br>
+                                    Starts Here</h2>
           <ul class="benefits-list">
-            <li class="benefit-item">✔ No experience needed</li>
-            <li class="benefit-item">✔ Global certifications</li>
-            <li class="benefit-item">✔ Supportive community</li>
-            <li class="benefit-item">✔ Expert mentorship</li>
-            <li class="benefit-item">✔ Real-world skills</li>
+            <li class="benefit-item"> No experience needed</li>
+            <li class="benefit-item"> Global certifications</li>
+            <li class="benefit-item"> Supportive community</li>
+            <li class="benefit-item"> Expert mentorship</li>
+            <li class="benefit-item"> Real-world skills</li>
           </ul>
         </div>
         <div class="career-image">
-          <img src="@/assets/career-start-image.jpg" alt="Successful graduate celebrating career achievement" class="feature-image">
+          <img src="@/assets/image1.jpg" alt="Successful graduate celebrating career achievement" class="feature-image">
         </div>
       </div>
     </div>

@@ -2,6 +2,8 @@
 import Welcome from '../components/Welcome.vue'
 import FeatureBlocks from '../components/FeatureBlocks.vue'
 import Testimonials from '../components/Testimonials.vue'
+import CareerStarts from '../components/CareerStarts.vue'
+import SiteFooter from '@/components/SiteFooter.vue'
 </script>
 
 <template>
@@ -28,7 +30,11 @@ import Testimonials from '../components/Testimonials.vue'
     <div class="content-container">
       <FeatureBlocks />
       <Testimonials />
+      <CareerStarts />
     </div>
+    
+
+    <SiteFooter />
   </main>
 </template>
 
