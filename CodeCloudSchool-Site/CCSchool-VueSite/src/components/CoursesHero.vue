@@ -20,10 +20,14 @@
 
     <div class="btngroupjump mx-auto">
       <div class="viewcoursebtn">
-        <i class="view-courses">{ View Courses }</i>
+        <a class="btnLinktoSections" href="#course">
+          <i class="view-courses">{ View Courses }</i></a
+        >
       </div>
       <div class="viewcoursebtn">
-        <i class="view-courses">{ View Journey’s }</i>
+        <a class="btnLinktoSections" href="#journey">
+          <i class="view-courses">{ View Journey’s }</i></a
+        >
       </div>
     </div>
   </div>
@@ -31,6 +35,11 @@
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Quicksand:wght@300..700&display=swap');
+
+a.btnLinktoSections {
+  text-decoration: none;
+  color: #000;
+}
 
 .coursesheroimg-icon {
   position: absolute;
@@ -158,6 +167,11 @@
   justify-content: center;
   padding: 24px 50px;
   box-sizing: border-box;
+}
+
+.viewcoursebtn:hover {
+  background-color: #f0f1a5;
+  transition: all 0.4s ease-in-out;
 }
 .btngroupjump {
   position: relative;

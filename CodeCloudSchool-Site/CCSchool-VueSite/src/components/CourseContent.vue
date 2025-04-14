@@ -1,397 +1,407 @@
 <template>
-  <div class="allcourses mx-auto px-4 py-8 md:px-8 lg:px-12 max-w-7xl">
-    <div class="python">
-      <div class="coursecompcontinner">
-        <div class="title">
-          <i class="python-django">Python & Django Web Development</i>
-        </div>
-        <div class="aboutcourse">
-          <div class="textlayout">
-            <div class="from-zero-to">From Zero to Full Stack Python Developer</div>
-            <div class="master-one-of">
-              Master one of the world’s most in-demand programming languages and dive into
-              full-stack web development using Django — the powerful Python framework used by giants
-              like Instagram and NASA.
+  <div class="allcourses-wrapper">
+    <div class="allcourses mx-auto px-4 py-8 md:px-8 lg:px-12 max-w-7xl">
+      <div class="python">
+        <div class="coursecompcontinner grid place-items-center text-cente">
+          <div class="title">
+            <i class="python-django">Python & Django Web Development</i>
+          </div>
+          <div class="aboutcourse">
+            <div class="textlayout">
+              <div class="from-zero-to">From Zero to Full Stack Python Developer</div>
+              <div class="master-one-of">
+                Master one of the world’s most in-demand programming languages and dive into
+                full-stack web development using Django — the powerful Python framework used by
+                giants like Instagram and NASA.
+              </div>
             </div>
           </div>
-        </div>
-        <div class="coursecontent">
-          <div class="textlayout1">
-            <div class="what-youll-learn">What You’ll Learn</div>
-            <div class="python-programming-fundamental-container">
-              <ul class="python-programming-fundamental">
-                <li class="building-powerful-web">Python programming fundamentals and OOP</li>
-                <li class="building-powerful-web">Building powerful web apps with Django</li>
-                <li class="building-powerful-web">REST APIs with Django Rest Framework</li>
-                <li>Deploying apps with PostgreSQL and Docker</li>
-              </ul>
+          <div class="coursecontent">
+            <div class="textlayout1">
+              <div class="what-youll-learn">What You’ll Learn</div>
+              <div class="python-programming-fundamental-container">
+                <ul class="python-programming-fundamental">
+                  <li class="building-powerful-web">Python programming fundamentals and OOP</li>
+                  <li class="building-powerful-web">Building powerful web apps with Django</li>
+                  <li class="building-powerful-web">REST APIs with Django Rest Framework</li>
+                  <li>Deploying apps with PostgreSQL and Docker</li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="capstone">
-          <div class="textlayout2">
-            <div class="capstone1">Capstone:</div>
-            <div class="build-a-real-world">Build a real-world SaaS application</div>
-          </div>
-        </div>
-        <div class="certification">
-          <div class="textlayout2">
-            <div class="capstone1">Certification:</div>
-            <div class="build-a-real-world">
-              PCAP – Python Institute + Optional Django Developer Certificate
+          <div class="capstone">
+            <div class="textlayout2">
+              <div class="capstone1">Capstone:</div>
+              <div class="build-a-real-world">Build a real-world SaaS application</div>
             </div>
           </div>
-        </div>
-        <div class="duration">
-          <div class="textlayout2">
-            <div class="capstone1">Duration:</div>
-            <div class="build-a-real-world">8 Months + Certification Month</div>
+          <div class="certification">
+            <div class="textlayout2">
+              <div class="capstone1">Certification:</div>
+              <div class="build-a-real-world">
+                PCAP – Python Institute + Optional Django Developer Certificate
+              </div>
+            </div>
+          </div>
+          <div class="duration">
+            <div class="textlayout2">
+              <div class="capstone1">Duration:</div>
+              <div class="build-a-real-world">8 Months + Certification Month</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="ecom">
-      <div class="coursecompcontinner">
-        <div class="title">
-          <i class="python-django">Web Development for Marketers: WordPress & Webflow</i>
-        </div>
-        <div class="aboutcourse1">
-          <div class="textlayout">
-            <div class="from-zero-to">Design. Build. Convert.</div>
-            <div class="master-one-of">
-              This course is built for marketers, creatives, and entrepreneurs who want stunning,
-              functional websites — fast. Master WordPress and Webflow to build beautiful,
-              SEO-friendly websites without writing code.
+      <div class="ecom">
+        <div class="coursecompcontinner">
+          <div class="title">
+            <i class="python-django">Web Development for Marketers: WordPress & Webflow</i>
+          </div>
+          <div class="aboutcourse1">
+            <div class="textlayout">
+              <div class="from-zero-to">Design. Build. Convert.</div>
+              <div class="master-one-of">
+                This course is built for marketers, creatives, and entrepreneurs who want stunning,
+                functional websites — fast. Master WordPress and Webflow to build beautiful,
+                SEO-friendly websites without writing code.
+              </div>
             </div>
           </div>
-        </div>
-        <div class="coursecontent1">
-          <div class="textlayout6">
-            <div class="what-youll-learn">What You’ll Learn</div>
-            <div class="wordpress-themes-plugins-container">
-              <ul class="python-programming-fundamental">
-                <li class="building-powerful-web">
-                  WordPress themes, plugins, and eCommerce with WooCommerce
-                </li>
-                <li class="building-powerful-web">
-                  Designing & publishing visually stunning sites in Webflow
-                </li>
-                <li class="building-powerful-web">
-                  Integrating marketing tools like HubSpot and Google Analytics
-                </li>
-                <li>Core SEO principles for website visibility</li>
-              </ul>
+          <div class="coursecontent1">
+            <div class="textlayout6">
+              <div class="what-youll-learn">What You’ll Learn</div>
+              <div class="wordpress-themes-plugins-container">
+                <ul class="python-programming-fundamental">
+                  <li class="building-powerful-web">
+                    WordPress themes, plugins, and eCommerce with WooCommerce
+                  </li>
+                  <li class="building-powerful-web">
+                    Designing & publishing visually stunning sites in Webflow
+                  </li>
+                  <li class="building-powerful-web">
+                    Integrating marketing tools like HubSpot and Google Analytics
+                  </li>
+                  <li>Core SEO principles for website visibility</li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="capstone">
-          <div class="textlayout2">
-            <div class="capstone1">Capstone:</div>
-            <div class="build-a-real-world">Launch your personal or business website</div>
+          <div class="capstone">
+            <div class="textlayout2">
+              <div class="capstone1">Capstone:</div>
+              <div class="build-a-real-world">Launch your personal or business website</div>
+            </div>
           </div>
-        </div>
-        <div class="certification">
-          <div class="textlayout2">
-            <div class="capstone1">Certification:</div>
-            <div class="build-a-real-world">Webflow Certification + HubSpot CMS/SEO</div>
+          <div class="certification">
+            <div class="textlayout2">
+              <div class="capstone1">Certification:</div>
+              <div class="build-a-real-world">Webflow Certification + HubSpot CMS/SEO</div>
+            </div>
           </div>
-        </div>
-        <div class="duration">
-          <div class="textlayout2">
-            <div class="capstone1">Duration:</div>
-            <div class="build-a-real-world">8 Months + Certification Month</div>
+          <div class="duration">
+            <div class="textlayout2">
+              <div class="capstone1">Duration:</div>
+              <div class="build-a-real-world">8 Months + Certification Month</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="fullstack">
-      <div class="coursecompcontinner">
-        <div class="title">
-          <i class="python-django">Full Stack Web Development with MERN</i>
-        </div>
-        <div class="aboutcourse">
-          <div class="textlayout">
-            <div class="from-zero-to">Build Fast, Scalable, Modern Web Apps</div>
-            <div class="master-one-of">
-              Master the complete stack that powers the web — MongoDB, Express.js, React, and
-              Node.js. Ideal for future web developers who want to work at startups, agencies, or
-              build their own apps.
+      <div class="fullstack">
+        <div class="coursecompcontinner">
+          <div class="title">
+            <i class="python-django">Full Stack Web Development with MERN</i>
+          </div>
+          <div class="aboutcourse">
+            <div class="textlayout">
+              <div class="from-zero-to">Build Fast, Scalable, Modern Web Apps</div>
+              <div class="master-one-of">
+                Master the complete stack that powers the web — MongoDB, Express.js, React, and
+                Node.js. Ideal for future web developers who want to work at startups, agencies, or
+                build their own apps.
+              </div>
             </div>
           </div>
-        </div>
-        <div class="coursecontent2">
-          <div class="textlayout11">
-            <div class="what-youll-learn">What You’ll Learn</div>
-            <div class="reactjs-for-dynamic-container">
-              <ul class="python-programming-fundamental">
-                <li class="building-powerful-web">React.js for dynamic frontend development</li>
-                <li class="building-powerful-web">Node.js and Express for robust backend APIs</li>
-                <li class="building-powerful-web">MongoDB for powerful, flexible databases</li>
-                <li>Authentication, security, and deployment</li>
-              </ul>
+          <div class="coursecontent2">
+            <div class="textlayout11">
+              <div class="what-youll-learn">What You’ll Learn</div>
+              <div class="reactjs-for-dynamic-container">
+                <ul class="python-programming-fundamental">
+                  <li class="building-powerful-web">React.js for dynamic frontend development</li>
+                  <li class="building-powerful-web">Node.js and Express for robust backend APIs</li>
+                  <li class="building-powerful-web">MongoDB for powerful, flexible databases</li>
+                  <li>Authentication, security, and deployment</li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="capstone4">
-          <div class="textlayout2">
-            <div class="capstone1">Capstone:</div>
-            <div class="build-a-real-world">A full-fledged social network or eCommerce app</div>
-          </div>
-        </div>
-        <div class="certification4">
-          <div class="textlayout2">
-            <div class="capstone1">Certification:</div>
-            <div class="build-a-real-world">
-              Meta Full Stack Developer Certificate or freeCodeCamp Full Stack
+          <div class="capstone4">
+            <div class="textlayout2">
+              <div class="capstone1">Capstone:</div>
+              <div class="build-a-real-world">A full-fledged social network or eCommerce app</div>
             </div>
           </div>
-        </div>
-        <div class="duration4">
-          <div class="textlayout2">
-            <div class="capstone1">Duration:</div>
-            <div class="build-a-real-world">8 Months + Certification Month</div>
+          <div class="certification4">
+            <div class="textlayout2">
+              <div class="capstone1">Certification:</div>
+              <div class="build-a-real-world">
+                Meta Full Stack Developer Certificate or freeCodeCamp Full Stack
+              </div>
+            </div>
+          </div>
+          <div class="duration4">
+            <div class="textlayout2">
+              <div class="capstone1">Duration:</div>
+              <div class="build-a-real-world">8 Months + Certification Month</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="sql">
-      <div class="coursecompcontinner">
-        <div class="title">
-          <i class="python-django">SQL & Oracle Database Administration</i>
-        </div>
-        <div class="aboutcourse">
-          <div class="textlayout">
-            <div class="from-zero-to">Master Data, Secure the Future</div>
-            <div class="master-one-of">
-              Data is the backbone of every modern organization. Learn how to store, manage, secure,
-              and retrieve it using SQL and Oracle Database — and earn one of the most respected DBA
-              credentials in the world.
+      <div class="sql">
+        <div class="coursecompcontinner">
+          <div class="title">
+            <i class="python-django">SQL & Oracle Database Administration</i>
+          </div>
+          <div class="aboutcourse">
+            <div class="textlayout">
+              <div class="from-zero-to">Master Data, Secure the Future</div>
+              <div class="master-one-of">
+                Data is the backbone of every modern organization. Learn how to store, manage,
+                secure, and retrieve it using SQL and Oracle Database — and earn one of the most
+                respected DBA credentials in the world.
+              </div>
             </div>
           </div>
-        </div>
-        <div class="coursecontent">
-          <div class="textlayout1">
-            <div class="what-youll-learn">What You’ll Learn</div>
-            <div class="python-programming-fundamental-container">
-              <ul class="python-programming-fundamental">
-                <li class="building-powerful-web">SQL queries, views, joins, and data modelling</li>
-                <li class="building-powerful-web">Oracle architecture and user management</li>
-                <li class="building-powerful-web">Backup, recovery, performance tuning</li>
-                <li>Oracle Cloud Database tools and utilities</li>
-              </ul>
+          <div class="coursecontent">
+            <div class="textlayout1">
+              <div class="what-youll-learn">What You’ll Learn</div>
+              <div class="python-programming-fundamental-container">
+                <ul class="python-programming-fundamental">
+                  <li class="building-powerful-web">
+                    SQL queries, views, joins, and data modelling
+                  </li>
+                  <li class="building-powerful-web">Oracle architecture and user management</li>
+                  <li class="building-powerful-web">Backup, recovery, performance tuning</li>
+                  <li>Oracle Cloud Database tools and utilities</li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="capstone">
-          <div class="textlayout2">
-            <div class="capstone1">Capstone:</div>
-            <div class="build-a-real-world">Design and manage a real-world Oracle DB system</div>
+          <div class="capstone">
+            <div class="textlayout2">
+              <div class="capstone1">Capstone:</div>
+              <div class="build-a-real-world">Design and manage a real-world Oracle DB system</div>
+            </div>
           </div>
-        </div>
-        <div class="certification">
-          <div class="textlayout2">
-            <div class="capstone1">Certification:</div>
-            <div class="build-a-real-world">Oracle Database SQL Certified Associate – 1Z0-071</div>
+          <div class="certification">
+            <div class="textlayout2">
+              <div class="capstone1">Certification:</div>
+              <div class="build-a-real-world">
+                Oracle Database SQL Certified Associate – 1Z0-071
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="duration">
-          <div class="textlayout2">
-            <div class="capstone1">Duration:</div>
-            <div class="build-a-real-world">8 Months + Certification Month</div>
+          <div class="duration">
+            <div class="textlayout2">
+              <div class="capstone1">Duration:</div>
+              <div class="build-a-real-world">8 Months + Certification Month</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="seo">
-      <div class="coursecompcontinner">
-        <div class="title">
-          <i class="python-django">Search Engine Optimization (SEO) for Marketers</i>
-        </div>
-        <div class="aboutcourse1">
-          <div class="textlayout">
-            <div class="from-zero-to">Get Found. Get Clicks. Get Results.</div>
-            <div class="master-one-of">
-              SEO is the most cost-effective way to drive traffic and sales online. This course is
-              your roadmap to ranking higher on Google, creating content that converts, and
-              mastering marketing analytics.
+      <div class="seo">
+        <div class="coursecompcontinner">
+          <div class="title">
+            <i class="python-django">Search Engine Optimization (SEO) for Marketers</i>
+          </div>
+          <div class="aboutcourse1">
+            <div class="textlayout">
+              <div class="from-zero-to">Get Found. Get Clicks. Get Results.</div>
+              <div class="master-one-of">
+                SEO is the most cost-effective way to drive traffic and sales online. This course is
+                your roadmap to ranking higher on Google, creating content that converts, and
+                mastering marketing analytics.
+              </div>
             </div>
           </div>
-        </div>
-        <div class="coursecontent1">
-          <div class="textlayout21">
-            <div class="what-youll-learn">What You’ll Learn</div>
-            <div class="on-page-and-off-page-container">
-              <ul class="python-programming-fundamental">
-                <li class="building-powerful-web">On-page and off-page SEO</li>
-                <li class="building-powerful-web">Keyword strategy and link building</li>
-                <li class="building-powerful-web">Core Web Vitals and mobile-first optimization</li>
-                <li>Google Search Console, Analytics, and SEMrush</li>
-              </ul>
+          <div class="coursecontent1">
+            <div class="textlayout21">
+              <div class="what-youll-learn">What You’ll Learn</div>
+              <div class="on-page-and-off-page-container">
+                <ul class="python-programming-fundamental">
+                  <li class="building-powerful-web">On-page and off-page SEO</li>
+                  <li class="building-powerful-web">Keyword strategy and link building</li>
+                  <li class="building-powerful-web">
+                    Core Web Vitals and mobile-first optimization
+                  </li>
+                  <li>Google Search Console, Analytics, and SEMrush</li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="capstone">
-          <div class="textlayout2">
-            <div class="capstone1">Capstone:</div>
-            <div class="build-a-real-world">
-              Conduct a full SEO audit and build a 6-month strategy
+          <div class="capstone">
+            <div class="textlayout2">
+              <div class="capstone1">Capstone:</div>
+              <div class="build-a-real-world">
+                Conduct a full SEO audit and build a 6-month strategy
+              </div>
             </div>
           </div>
-        </div>
-        <div class="certification">
-          <div class="textlayout2">
-            <div class="capstone1">Certification:</div>
-            <div class="build-a-real-world">Google SEO Certification + SEMrush Toolkit</div>
+          <div class="certification">
+            <div class="textlayout2">
+              <div class="capstone1">Certification:</div>
+              <div class="build-a-real-world">Google SEO Certification + SEMrush Toolkit</div>
+            </div>
           </div>
-        </div>
-        <div class="duration">
-          <div class="textlayout2">
-            <div class="capstone1">Duration:</div>
-            <div class="build-a-real-world">8 Months + Certification Month</div>
+          <div class="duration">
+            <div class="textlayout2">
+              <div class="capstone1">Duration:</div>
+              <div class="build-a-real-world">8 Months + Certification Month</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="comptia">
-      <div class="coursecompcontinner">
-        <div class="title">
-          <i class="python-django">CompTIA A+ and N+: IT Support & Networking</i>
-        </div>
-        <div class="aboutcourse">
-          <div class="textlayout">
-            <div class="from-zero-to">Launch Your Tech Support or Networking Career</div>
-            <div class="master-one-of">
-              Perfect for beginners — this course gives you a rock-solid foundation in computer
-              hardware, networks, security, and troubleshooting. Step confidently into roles like IT
-              Support Technician or Network Administrator.
+      <div class="comptia">
+        <div class="coursecompcontinner">
+          <div class="title">
+            <i class="python-django">CompTIA A+ and N+: IT Support & Networking</i>
+          </div>
+          <div class="aboutcourse">
+            <div class="textlayout">
+              <div class="from-zero-to">Launch Your Tech Support or Networking Career</div>
+              <div class="master-one-of">
+                Perfect for beginners — this course gives you a rock-solid foundation in computer
+                hardware, networks, security, and troubleshooting. Step confidently into roles like
+                IT Support Technician or Network Administrator.
+              </div>
             </div>
           </div>
-        </div>
-        <div class="coursecontent2">
-          <div class="textlayout11">
-            <div class="what-youll-learn">What You’ll Learn</div>
-            <div class="reactjs-for-dynamic-container">
-              <ul class="python-programming-fundamental">
-                <li class="building-powerful-web">PC hardware, mobile devices, virtualization</li>
-                <li class="building-powerful-web">Installing and configuring operating systems</li>
-                <li class="building-powerful-web">Network protocols, wireless & IP addressing</li>
-                <li>Cybersecurity best practices and threat detection</li>
-              </ul>
+          <div class="coursecontent2">
+            <div class="textlayout11">
+              <div class="what-youll-learn">What You’ll Learn</div>
+              <div class="reactjs-for-dynamic-container">
+                <ul class="python-programming-fundamental">
+                  <li class="building-powerful-web">PC hardware, mobile devices, virtualization</li>
+                  <li class="building-powerful-web">
+                    Installing and configuring operating systems
+                  </li>
+                  <li class="building-powerful-web">Network protocols, wireless & IP addressing</li>
+                  <li>Cybersecurity best practices and threat detection</li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="capstone4">
-          <div class="textlayout2">
-            <div class="capstone1">Capstone:</div>
-            <div class="build-a-real-world">Simulated support ticket & network setup</div>
+          <div class="capstone4">
+            <div class="textlayout2">
+              <div class="capstone1">Capstone:</div>
+              <div class="build-a-real-world">Simulated support ticket & network setup</div>
+            </div>
           </div>
-        </div>
-        <div class="certification4">
-          <div class="textlayout2">
-            <div class="capstone1">Certification:</div>
-            <div class="build-a-real-world">CompTIA A+ & CompTIA Network+</div>
+          <div class="certification4">
+            <div class="textlayout2">
+              <div class="capstone1">Certification:</div>
+              <div class="build-a-real-world">CompTIA A+ & CompTIA Network+</div>
+            </div>
           </div>
-        </div>
-        <div class="duration4">
-          <div class="textlayout2">
-            <div class="capstone1">Duration:</div>
-            <div class="build-a-real-world">8 Months + Certification Month</div>
+          <div class="duration4">
+            <div class="textlayout2">
+              <div class="capstone1">Duration:</div>
+              <div class="build-a-real-world">8 Months + Certification Month</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="cloud">
-      <div class="coursecompcontinner">
-        <div class="title">
-          <i class="python-django">Cloud Computing with AWS</i>
-        </div>
-        <div class="aboutcourse">
-          <div class="textlayout">
-            <div class="from-zero-to">Enter the Cloud Era with Confidence</div>
-            <div class="master-one-of">
-              The world is running on cloud — and AWS leads the charge. Learn how to deploy, secure,
-              and manage cloud infrastructure, and kickstart your cloud career with AWS
-              certification.
+      <div class="cloud">
+        <div class="coursecompcontinner">
+          <div class="title">
+            <i class="python-django">Cloud Computing with AWS</i>
+          </div>
+          <div class="aboutcourse">
+            <div class="textlayout">
+              <div class="from-zero-to">Enter the Cloud Era with Confidence</div>
+              <div class="master-one-of">
+                The world is running on cloud — and AWS leads the charge. Learn how to deploy,
+                secure, and manage cloud infrastructure, and kickstart your cloud career with AWS
+                certification.
+              </div>
             </div>
           </div>
-        </div>
-        <div class="coursecontent">
-          <div class="textlayout1">
-            <div class="what-youll-learn">What You’ll Learn</div>
-            <div class="python-programming-fundamental-container">
-              <ul class="python-programming-fundamental">
-                <li class="building-powerful-web">AWS core services: EC2, S3, IAM, VPC</li>
-                <li class="building-powerful-web">Serverless computing with Lambda</li>
-                <li class="building-powerful-web">Monitoring, billing, and cost management</li>
-                <li>Cloud security and architecture best practices</li>
-              </ul>
+          <div class="coursecontent">
+            <div class="textlayout1">
+              <div class="what-youll-learn">What You’ll Learn</div>
+              <div class="python-programming-fundamental-container">
+                <ul class="python-programming-fundamental">
+                  <li class="building-powerful-web">AWS core services: EC2, S3, IAM, VPC</li>
+                  <li class="building-powerful-web">Serverless computing with Lambda</li>
+                  <li class="building-powerful-web">Monitoring, billing, and cost management</li>
+                  <li>Cloud security and architecture best practices</li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="capstone">
-          <div class="textlayout2">
-            <div class="capstone1">Capstone:</div>
-            <div class="build-a-real-world">Deploy a live app using AWS</div>
+          <div class="capstone">
+            <div class="textlayout2">
+              <div class="capstone1">Capstone:</div>
+              <div class="build-a-real-world">Deploy a live app using AWS</div>
+            </div>
           </div>
-        </div>
-        <div class="certification">
-          <div class="textlayout2">
-            <div class="capstone1">Certification:</div>
-            <div class="build-a-real-world">AWS Certified Cloud Practitioner (CLF-C02)</div>
+          <div class="certification">
+            <div class="textlayout2">
+              <div class="capstone1">Certification:</div>
+              <div class="build-a-real-world">AWS Certified Cloud Practitioner (CLF-C02)</div>
+            </div>
           </div>
-        </div>
-        <div class="duration">
-          <div class="textlayout2">
-            <div class="capstone1">Duration:</div>
-            <div class="build-a-real-world">8 Months + Certification Month</div>
+          <div class="duration">
+            <div class="textlayout2">
+              <div class="capstone1">Duration:</div>
+              <div class="build-a-real-world">8 Months + Certification Month</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="icdl">
-      <div class="coursecompcontinner">
-        <div class="title">
-          <i class="icdl-digital-literacy">ICDL: Digital Literacy & Productivity Skills</i>
-        </div>
-        <div class="aboutcourse1">
-          <div class="textlayout">
-            <div class="from-zero-to">Get Certified in Essential IT Skills</div>
-            <div class="master-one-of">
-              International Computer Driving License (ICDL) is the world’s leading digital skills
-              certification. Ideal for administrative professionals, students, and anyone needing
-              workplace IT confidence.
+      <div class="icdl">
+        <div class="coursecompcontinner">
+          <div class="title">
+            <i class="icdl-digital-literacy">ICDL: Digital Literacy & Productivity Skills</i>
+          </div>
+          <div class="aboutcourse1">
+            <div class="textlayout">
+              <div class="from-zero-to">Get Certified in Essential IT Skills</div>
+              <div class="master-one-of">
+                International Computer Driving License (ICDL) is the world’s leading digital skills
+                certification. Ideal for administrative professionals, students, and anyone needing
+                workplace IT confidence.
+              </div>
             </div>
           </div>
-        </div>
-        <div class="coursecontent1">
-          <div class="textlayout21">
-            <div class="what-youll-learn">What You’ll Learn</div>
-            <div class="on-page-and-off-page-container">
-              <ul class="python-programming-fundamental">
-                <li class="building-powerful-web">Computer essentials and internet skills</li>
-                <li class="building-powerful-web">Microsoft Word, Excel, PowerPoint</li>
-                <li class="building-powerful-web">File management, online collaboration</li>
-                <li>Optional tracks: Digital Marketing or Project Management</li>
-              </ul>
+          <div class="coursecontent1">
+            <div class="textlayout21">
+              <div class="what-youll-learn">What You’ll Learn</div>
+              <div class="on-page-and-off-page-container">
+                <ul class="python-programming-fundamental">
+                  <li class="building-powerful-web">Computer essentials and internet skills</li>
+                  <li class="building-powerful-web">Microsoft Word, Excel, PowerPoint</li>
+                  <li class="building-powerful-web">File management, online collaboration</li>
+                  <li>Optional tracks: Digital Marketing or Project Management</li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="capstone">
-          <div class="textlayout2">
-            <div class="capstone1">Capstone:</div>
-            <div class="build-a-real-world">Complete real-world productivity tasks</div>
+          <div class="capstone">
+            <div class="textlayout2">
+              <div class="capstone1">Capstone:</div>
+              <div class="build-a-real-world">Complete real-world productivity tasks</div>
+            </div>
           </div>
-        </div>
-        <div class="certification">
-          <div class="textlayout2">
-            <div class="capstone1">Certification:</div>
-            <div class="build-a-real-world">ICDL Professional/Workforce Certification</div>
+          <div class="certification">
+            <div class="textlayout2">
+              <div class="capstone1">Certification:</div>
+              <div class="build-a-real-world">ICDL Professional/Workforce Certification</div>
+            </div>
           </div>
-        </div>
-        <div class="duration">
-          <div class="textlayout2">
-            <div class="capstone1">Duration:</div>
-            <div class="build-a-real-world">8 Months + Certification Month</div>
+          <div class="duration">
+            <div class="textlayout2">
+              <div class="capstone1">Duration:</div>
+              <div class="build-a-real-world">8 Months + Certification Month</div>
+            </div>
           </div>
         </div>
       </div>
@@ -400,6 +410,23 @@
 </template>
 
 <style>
+.allcourses-wrapper {
+  width: 1204px; /* Or whatever the max width you want */
+  position: relative;
+  margin: 0 auto;
+}
+.python,
+.ecom,
+.fullstack,
+.sql,
+.seo,
+.comptia,
+.cloud,
+.icdl {
+  position: relative;
+  margin-bottom: 50px;
+}
+
 .python-django {
   width: 542.3px;
   position: relative;
@@ -931,7 +958,9 @@
 }
 .allcourses {
   width: 100%;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 5383.8px;
   display: flex;
   flex-direction: column;
@@ -941,6 +970,6 @@
   text-align: center;
   font-size: 19.31px;
   color: #000;
-  font-family: Quicksand;
+  font-family: 'Quicksand', sans-serif;
 }
 </style>

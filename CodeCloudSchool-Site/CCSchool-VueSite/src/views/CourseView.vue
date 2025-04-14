@@ -29,12 +29,13 @@ import Courses from '@/components/CourseContent.vue'
   }
   .hero-sect {
     width: 100%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
   }
 
   .course-sec {
     width: 100%;
     margin: 0 auto;
+    margin-bottom: 2%;
   }
 }
 </style>
