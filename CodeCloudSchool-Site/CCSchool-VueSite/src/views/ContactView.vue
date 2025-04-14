@@ -14,7 +14,7 @@ import FAQAccordion from '@/components/FAQ.vue'
       <div class="form-section lg:w-1/2">
         <ContactForm />
       </div>
-      <div class="faq-section">
+      <div class="faq-section lg:w-1/2">
         <FAQAccordion />
       </div>
     </div>
