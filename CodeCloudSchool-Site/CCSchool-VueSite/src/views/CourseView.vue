@@ -1,6 +1,7 @@
 <script setup>
 import Hero from '@/components/CoursesHero.vue'
 import Courses from '@/components/CourseContent.vue'
+import Journey from '@/components/Journies.vue'
 </script>
 
 <template>
@@ -12,7 +13,9 @@ import Courses from '@/components/CourseContent.vue'
       <div class="course-sect lg:w-1/2" id="course">
         <Courses />
       </div>
-      <div class="journey-sect" id="journey"></div>
+      <div class="journey-sect" id="journey">
+        <Journey />
+      </div>
     </div>
   </main>
 </template>
@@ -35,6 +38,12 @@ import Courses from '@/components/CourseContent.vue'
   .course-sec {
     width: 100%;
     margin: 0 auto;
+    margin-bottom: 2%;
+  }
+
+  .journey-sect {
+    margin: 0 auto;
+    margin-top: 10%;
     margin-bottom: 2%;
   }
 }

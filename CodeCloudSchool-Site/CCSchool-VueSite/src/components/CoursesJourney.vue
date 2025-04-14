@@ -56,7 +56,7 @@
           </div>
         </div>
 
-        <!-- <div class="journeybox">
+        <div class="journeybox">
           <div class="journeyboxinner">
             <div class="journeyheading">
               <i class="journey">Journey</i>
@@ -128,7 +128,7 @@
               </div>
             </div>
           </div>
-        </div> -->
+        </div>
       </div>
       <!--Web-->
       <div class="course-wrapper">
@@ -187,7 +187,7 @@
           </div>
         </div>
 
-        <!-- <div class="journeybox">
+        <div class="journeybox">
           <div class="journeyboxinner">
             <div class="journeyheading">
               <i class="journey">Journey</i>
@@ -253,7 +253,7 @@
               </div>
             </div>
           </div>
-        </div> -->
+        </div>
       </div>
       <!--fullstack-->
       <div class="course-wrapper">
@@ -310,7 +310,7 @@
           </div>
         </div>
 
-        <!-- <div class="journeybox">
+        <div class="journeybox">
           <div class="journeyboxinner">
             <div class="journeyheading">
               <i class="journey">Journey</i>
@@ -375,7 +375,7 @@
               </div>
             </div>
           </div>
-        </div> -->
+        </div>
       </div>
       <!--SQL-->
       <div class="course-wrapper">
@@ -434,7 +434,7 @@
           </div>
         </div>
 
-        <!-- <div class="journeybox">
+        <div class="journeybox">
           <div class="journeyboxinner">
             <div class="journeyheading">
               <i class="journey">Journey</i>
@@ -496,7 +496,7 @@
               </div>
             </div>
           </div>
-        </div> -->
+        </div>
       </div>
       <!--seo-->
       <div class="course-wrapper">
@@ -553,7 +553,7 @@
           </div>
         </div>
 
-        <!-- <div class="journeybox">
+        <div class="journeybox">
           <div class="journeyboxinner">
             <div class="journeyheading">
               <i class="journey">Journey</i>
@@ -618,7 +618,7 @@
               </div>
             </div>
           </div>
-        </div> -->
+        </div>
       </div>
       <!--compTIA-->
       <div class="course-wrapper">
@@ -677,7 +677,7 @@
           </div>
         </div>
 
-        <!-- <div class="journeybox">
+        <div class="journeybox">
           <div class="journeyboxinner">
             <div class="journeyheading">
               <i class="journey">Journey</i>
@@ -740,7 +740,7 @@
               </div>
             </div>
           </div>
-        </div> -->
+        </div>
       </div>
       <!--cloud-->
       <div class="course-wrapper">
@@ -793,7 +793,7 @@
           </div>
         </div>
 
-        <!-- <div class="journeybox">
+        <div class="journeybox">
           <div class="journeyboxinner">
             <div class="journeyheading">
               <i class="journey">Journey</i>
@@ -851,7 +851,7 @@
               </div>
             </div>
           </div>
-        </div> -->
+        </div>
       </div>
       <!--ICDL-->
       <div class="course-wrapper">
@@ -903,72 +903,72 @@
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- <div class="journeybox">
-          <div class="journeyboxinner">
-            <div class="journeyheading">
-              <i class="journey">Journey</i>
-            </div>
-            <div class="exam">
-              <i class="python-institute-pcap-container">
-                <span class="python-institute-pcap-container1">
-                  <p class="python-institute-pcap">Python Institute PCAP</p>
-                  <p class="python-institute-pcap">Optional: Django Developer Certification</p>
-                </span>
-              </i>
-              <i class="final-exam">Final Exam</i>
-            </div>
-            <div class="div">
-              <div class="textlayout">
-                <div class="month-78-digital">
-                  Month 7–8: Digital Marketing & Project Management (Optional Tracks)
-                </div>
-                <div class="choose-specialization-digital-container">
-                  <ul class="choose-specialization-digital">
-                    <li class="basic-it-skills">
-                      Choose specialization: Digital Marketing or Project Planning
-                    </li>
-                    <li>Practice assessments</li>
-                  </ul>
-                </div>
+      <div class="journeybox">
+        <div class="journeyboxinner">
+          <div class="journeyheading">
+            <i class="journey">Journey</i>
+          </div>
+          <div class="exam">
+            <i class="python-institute-pcap-container">
+              <span class="python-institute-pcap-container1">
+                <p class="python-institute-pcap">Python Institute PCAP</p>
+                <p class="python-institute-pcap">Optional: Django Developer Certification</p>
+              </span>
+            </i>
+            <i class="final-exam">Final Exam</i>
+          </div>
+          <div class="div">
+            <div class="textlayout">
+              <div class="month-78-digital">
+                Month 7–8: Digital Marketing & Project Management (Optional Tracks)
               </div>
-            </div>
-            <div class="to6">
-              <div class="textlayout1">
-                <div class="month-56-presentations">Month 5–6: Presentations & Collaboration</div>
-                <div class="microsoft-powerpoint-slidesho-container">
-                  <ul class="choose-specialization-digital">
-                    <li class="basic-it-skills">Microsoft PowerPoint: slideshows, transitions</li>
-                    <li>Online collaboration tools (Teams, Zoom)</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="to2">
-              <div class="textlayout">
-                <div class="month-78-digital">Month 1–2: Computer & Online Essentials</div>
-                <div class="choose-specialization-digital-container">
-                  <ul class="choose-specialization-digital">
-                    <li class="basic-it-skills">Basic IT skills</li>
-                    <li class="basic-it-skills">Files and folder management</li>
-                    <li>Internet safety and productivity tools</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="to4">
-              <div class="textlayout">
-                <div class="month-78-digital">Month 3–4: Word Processing & Spreadsheets</div>
-                <div class="choose-specialization-digital-container">
-                  <ul class="choose-specialization-digital">
-                    <li class="basic-it-skills">Microsoft Word: formatting, templates</li>
-                    <li>Excel: formulas, charts, data analysis</li>
-                  </ul>
-                </div>
+              <div class="choose-specialization-digital-container">
+                <ul class="choose-specialization-digital">
+                  <li class="basic-it-skills">
+                    Choose specialization: Digital Marketing or Project Planning
+                  </li>
+                  <li>Practice assessments</li>
+                </ul>
               </div>
             </div>
           </div>
-        </div> -->
+          <div class="to6">
+            <div class="textlayout1">
+              <div class="month-56-presentations">Month 5–6: Presentations & Collaboration</div>
+              <div class="microsoft-powerpoint-slidesho-container">
+                <ul class="choose-specialization-digital">
+                  <li class="basic-it-skills">Microsoft PowerPoint: slideshows, transitions</li>
+                  <li>Online collaboration tools (Teams, Zoom)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="to2">
+            <div class="textlayout">
+              <div class="month-78-digital">Month 1–2: Computer & Online Essentials</div>
+              <div class="choose-specialization-digital-container">
+                <ul class="choose-specialization-digital">
+                  <li class="basic-it-skills">Basic IT skills</li>
+                  <li class="basic-it-skills">Files and folder management</li>
+                  <li>Internet safety and productivity tools</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="to4">
+            <div class="textlayout">
+              <div class="month-78-digital">Month 3–4: Word Processing & Spreadsheets</div>
+              <div class="choose-specialization-digital-container">
+                <ul class="choose-specialization-digital">
+                  <li class="basic-it-skills">Microsoft Word: formatting, templates</li>
+                  <li>Excel: formulas, charts, data analysis</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -1536,5 +1536,389 @@
   font-size: 19.31px;
   color: #000;
   font-family: 'Quicksand', sans-serif;
+}
+
+/*journeybox css*/
+.journey {
+  width: 542.3px;
+  position: relative;
+  display: flex;
+  font-weight: 300;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.journeyheading {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 20.11px;
+  border: 0.8px dashed #000;
+  box-sizing: border-box;
+  width: 550px;
+  height: 84px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  font-size: 51.49px;
+  font-family: 'Josefin Sans';
+}
+.python-institute-pcap {
+  margin: 0;
+}
+.python-institute-pcap-container1 {
+  width: 100%;
+}
+.python-institute-pcap-container {
+  width: 542px;
+  position: absolute;
+  margin: 0 !important;
+  top: 26px;
+  left: 4px;
+  display: flex;
+  font-weight: 300;
+  align-items: center;
+  height: 50px;
+  z-index: 0;
+}
+.final-exam {
+  width: 542.3px;
+  position: absolute;
+  margin: 0 !important;
+  top: 11px;
+  left: 3.87px;
+  display: flex;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.exam {
+  position: absolute;
+  top: 493px;
+  left: 567px;
+  border-radius: 20.11px;
+  border: 0.8px dashed #000;
+  box-sizing: border-box;
+  width: 566px;
+  height: 84px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  gap: 8px;
+  font-size: 16px;
+  font-family: 'Josefin Sans';
+}
+.month-78-capstone {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20.1px;
+  flex-shrink: 0;
+}
+.full-stack-project {
+  margin-bottom: 0px;
+}
+.full-stack-project-backend {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 21px;
+}
+.full-stack-project-container {
+  width: 475.5px;
+  position: relative;
+  font-size: 16.09px;
+  font-weight: 300;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  height: 77.2px;
+  flex-shrink: 0;
+}
+.textlayout {
+  width: 520px;
+  margin: 0 !important;
+  position: absolute;
+  top: 18px;
+  left: calc(50% - 259.5px);
+  height: 174px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16.9px;
+  z-index: 0;
+}
+.div {
+  position: absolute;
+  top: 259px;
+  left: 570px;
+  border-radius: 20.11px;
+  background-color: #f0f1a5;
+  width: 563px;
+  height: 218px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 17.7px 11.3px;
+  box-sizing: border-box;
+}
+.month-56-building {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 28.2px;
+  flex-shrink: 0;
+}
+.rest-apis-with-container {
+  align-self: stretch;
+  position: relative;
+  font-size: 16.09px;
+  font-weight: 300;
+  text-align: left;
+  display: inline-block;
+  height: 126.3px;
+  flex-shrink: 0;
+}
+.textlayout1 {
+  width: 461px;
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 99.5px);
+  left: calc(50% - 230.5px);
+  height: 203px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16.1px;
+  z-index: 0;
+}
+.to6 {
+  position: absolute;
+  top: 0px;
+  left: 570px;
+  border-radius: 20.11px;
+  background-color: #f0f1a5;
+  width: 563px;
+  height: 233px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 57.1px 36.2px;
+  box-sizing: border-box;
+}
+.to2 {
+  position: absolute;
+  top: 101px;
+  left: 3px;
+  border-radius: 20.11px;
+  background-color: #f0f1a5;
+  width: 543px;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 17.7px 11.3px;
+  box-sizing: border-box;
+}
+.to4 {
+  position: absolute;
+  top: 337px;
+  left: 3px;
+  border-radius: 20.11px;
+  background-color: #f0f1a5;
+  width: 543px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 17.7px 11.3px;
+  box-sizing: border-box;
+}
+.journeyboxinner {
+  width: 1133px;
+  position: relative;
+  height: 577px;
+}
+.journeybox {
+  position: absolute;
+  top: 230px;
+  left: 365px;
+  border-radius: 25px;
+  background-color: #fff;
+  width: 1191px;
+  height: 626px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 22px 28px;
+  box-sizing: border-box;
+}
+.journeybox1 {
+  position: absolute;
+  top: 962px;
+  left: 365px;
+  border-radius: 25px;
+  background-color: #fff;
+  width: 1191px;
+  height: 626px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 22px 28px;
+  box-sizing: border-box;
+}
+.journeybox2 {
+  position: absolute;
+  top: 1649px;
+  left: 365px;
+  border-radius: 25px;
+  background-color: #fff;
+  width: 1191px;
+  height: 626px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 22px 28px;
+  box-sizing: border-box;
+}
+.journeybox3 {
+  position: absolute;
+  top: 2381px;
+  left: 365px;
+  border-radius: 25px;
+  background-color: #fff;
+  width: 1191px;
+  height: 626px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 22px 28px;
+  box-sizing: border-box;
+}
+.journeybox4 {
+  position: absolute;
+  top: 3195px;
+  left: 365px;
+  border-radius: 25px;
+  background-color: #fff;
+  width: 1191px;
+  height: 626px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 22px 28px;
+  box-sizing: border-box;
+}
+.journeybox5 {
+  position: absolute;
+  top: 3979px;
+  left: 365px;
+  border-radius: 25px;
+  background-color: #fff;
+  width: 1191px;
+  height: 626px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 22px 28px;
+  box-sizing: border-box;
+}
+.aws-certified-cloud {
+  width: 542px;
+  position: absolute;
+  margin: 0 !important;
+  top: 26px;
+  left: 4px;
+  display: flex;
+  font-weight: 300;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  z-index: 0;
+}
+.journeybox6 {
+  position: absolute;
+  top: 4680px;
+  left: 365px;
+  border-radius: 25px;
+  background-color: #fff;
+  width: 1191px;
+  height: 626px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 22px 28px;
+  box-sizing: border-box;
+}
+.journeybox7 {
+  position: absolute;
+  top: 5464px;
+  left: 365px;
+  border-radius: 25px;
+  background-color: #fff;
+  width: 1191px;
+  height: 626px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 22px 28px;
+  box-sizing: border-box;
+}
+.journey-container {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 6875px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 19.31px;
+  color: #000;
+  font-family: Quicksand;
+}
+
+/*for effects*/
+.course-wrapper {
+  position: relative;
+}
+
+.journeybox {
+  position: absolute;
+  top: 100%; /* or wherever you want it to appear */
+  left: 0;
+  z-index: 10;
+  display: none;
+  background: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.course-wrapper:hover .journeybox {
+  display: block;
 }
 </style>
