@@ -2,10 +2,6 @@
 import ContactWelcome from '@/components/ContactWelcome.vue'
 import ContactForm from '@/components/ContactForm.vue'
 import FAQAccordion from '@/components/FAQ.vue'
-import { ref } from 'vue'
-import InputText from 'primevue/inputtext'
-import Textarea from 'primevue/textarea'
-import Button from 'primevue/button'
 </script>
 
 <template>
@@ -15,9 +11,22 @@ import Button from 'primevue/button'
       <div class="banner-intro lg:w-1/2">
         <ContactWelcome />
       </div>
-      <div class="form lg:w-1/2">
+      <div class="form-section lg:w-1/2">
         <ContactForm />
+      </div>
+      <div class="faq-section">
+        <FAQAccordion />
       </div>
     </div>
   </main>
 </template>
+
+<style>
+.form-section {
+  margin-top: 25%;
+}
+
+.faq-section {
+  margin-top: 5%;
+}
+</style>

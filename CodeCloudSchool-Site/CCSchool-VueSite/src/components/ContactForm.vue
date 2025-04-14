@@ -1,254 +1,304 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-import InputText from 'primevue/inputtext'
-import Textarea from 'primevue/textarea'
-import Button from 'primevue/button'
+// import { ref } from 'vue'
+// import InputText from 'primevue/inputtext'
+// import Textarea from 'primevue/textarea'
+// import Button from 'primevue/button'
 
-const form = ref({
-  name: '',
-  email: '',
-  message: '',
-})
+// const form = ref({
+//   name: '',
+//   email: '',
+//   message: '',
+// })
 
-const submitForm = () => {
-  console.log('Form submitted:', form.value)
-}
+// const submitForm = () => {
+//   console.log('Form submitted:', form.value)
+// }
 </script>
 
 <template>
   <main class="contact-form container">
-    <div class="form-sect mx-auto px-4 py-8 md:px-8 lg:px-12 max-w-7xl">
-      <div class="form">
-        <div class="text-wrapper">Send A Message</div>
-        <div class="name-txt-field">
-          <div class="div">Your Name</div>
-          <div class="text-area-details"></div>
-        </div>
-        <div class="email-txt">
-          <div class="div">Your Email</div>
-          <div class="text-area-details"></div>
-        </div>
-        <div class="text-area"></div>
-        <div class="send-BTN">
-          <div class="send-BTN-2"></div>
-          <div class="text-wrapper-2">Send Message!</div>
-        </div>
-      </div>
-      <div class="getintouch-cont">
-        <div class="text-wrapper-3">Get In Touch</div>
-
-        <p class="p">
-          <span class="span">Email: <br /></span>
-          <span class="text-wrapper-4">hello@codeandcloud.academy</span>
-        </p>
-        <p class="p">
-          <span class="span">Phone: <br /></span>
-          <span class="text-wrapper-4">+27 60 123 4567</span>
-        </p>
-        <p class="p">
-          <span class="span">WhatsApp: <br /></span>
-          <span class="text-wrapper-4">+27 60 123 4567</span>
-        </p>
-        <p class="p">
-          <span class="span">Operating Hours: <br /></span>
-          <span class="text-wrapper-4">Monday – Friday | 9 AM – 5 PM (SAST)</span>
-        </p>
-        <p class="p">
-          <span class="span">Location: <br /></span>
-          <span class="text-wrapper-4">100% Online | Based in South Africa, Open to the World</span>
-        </p>
-
-        <!-- PrimeVue Contact Form -->
-        <form @submit.prevent="submitForm" class="mt-6 space-y-4">
-          <div>
-            <label for="name" class="span">Name:</label>
-            <InputText id="name" v-model="form.name" class="w-full" />
+    <div class="form-contact mx-auto px-4 py-8 md:px-8 lg:px-12 max-w-7xl">
+      <div class="form-sect">
+        <div class="form">
+          <div class="text-wrapper">Send A Message</div>
+          <div class="name-txt-field">
+            <div class="div">Your Name</div>
+            <div class="text-area-details"></div>
           </div>
-
-          <div>
-            <label for="email" class="span">Email:</label>
-            <InputText id="email" v-model="form.email" type="email" class="w-full" />
+          <div class="email-txt">
+            <div class="div">Your Email</div>
+            <div class="text-area-details"></div>
           </div>
-
-          <div>
-            <label for="message" class="span">Message:</label>
-            <Textarea id="message" v-model="form.message" rows="5" class="w-full" />
+          <div class="text-area"></div>
+          <div class="send-BTN">
+            <div class="send-BTN-2"></div>
+            <div class="text-wrapper-2">Send Message!</div>
           </div>
-
-          <Button type="submit" label="Send Message" class="mt-2" />
-        </form>
+        </div>
+        <div class="getintouch-cont">
+          <div class="text-wrapper-3">Get In Touch*</div>
+          <p class="email-hello">
+            <span class="span">Email: <br /></span>
+            <span class="text-wrapper-4">hello@codeandcloud.academy</span>
+          </p>
+          <p class="phone">
+            <span class="span">Phone: <br /></span>
+            <span class="text-wrapper-4">+27 60 123 4567</span>
+          </p>
+          <p class="whatsapp">
+            <span class="span">WhatsApp: <br /></span>
+            <span class="text-wrapper-4">+27 60 123 4567</span>
+          </p>
+          <p class="operating-hours">
+            <span class="span">Operating Hours: <br /></span>
+            <span class="text-wrapper-4">Monday – Friday | 9 AM – 5 PM (SAST)</span>
+          </p>
+          <p class="location-online">
+            <span class="span">Location: <br /></span>
+            <span class="text-wrapper-4"
+              >100% Online | Based in South Africa, Open to the World</span
+            >
+          </p>
+        </div>
       </div>
     </div>
   </main>
 </template>
 
 <style>
-.form-sect {
-  margin-top: 20%;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Quicksand:wght@300..700&display=swap');
+
+.form-contact {
+  width: 1522px;
+  height: 835px;
+  background-color: #d8dfe9;
+  border-radius: 43.75px;
+}
+
+.form-contact .form-sect {
   position: relative;
-  width: 1507px;
-  height: 723px;
+  width: 1318px;
+  height: 633px;
+  top: 101px;
+  left: 102px;
 }
 
-.form-sect .form {
+.form-contact .form {
   position: absolute;
-  width: 678px;
-  height: 726px;
+  width: 594px;
+  height: 635px;
   top: -1px;
-  left: 828px;
+  left: 725px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  box-shadow: 0px 4px 4px #00000040;
 }
 
-.form-sect .text-wrapper {
+.form-contact .text-wrapper {
   position: absolute;
-  top: -1px;
-  left: 232px;
-  font-family: 'Josefin Sans-Bold', Helvetica;
+  top: 45px;
+  left: 203px;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
   color: #000000;
-  font-size: 27.2px;
+  font-size: 23.8px;
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
   white-space: nowrap;
 }
 
-.form-sect .name-txt-field {
+.form-contact .name-txt-field {
   display: flex;
   flex-direction: column;
-  width: 326px;
+  width: 253px;
   align-items: center;
-  gap: 8.31px;
+  gap: 6.43px;
   position: absolute;
-  top: 60px;
-  left: 352px;
+  top: 105px;
+  left: 307px;
 }
 
-.form-sect .div {
+.form-contact .div {
   position: relative;
   align-self: stretch;
-  height: 22.66px;
-  margin-top: -0.76px;
-  font-family: 'Quicksand-Medium', Helvetica;
+  height: 17.54px;
+  margin-top: -0.58px;
+  font-family: 'Quicksand', sans-serif;
   font-weight: 500;
   color: #000000;
-  font-size: 12.1px;
+  font-size: 9.4px;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.form-sect .text-area-details {
+.form-contact .text-area-details {
   position: relative;
   align-self: stretch;
   width: 100%;
-  height: 67.99px;
-  border-radius: 37.77px;
-  border: 0.76px solid;
+  height: 52.61px;
+  border-radius: 29.23px;
+  border: 0.58px solid;
   border-color: #212121;
 }
 
-.form-sect .email-txt {
+.form-contact .email-txt {
   display: flex;
   flex-direction: column;
-  width: 326px;
+  width: 253px;
   align-items: flex-start;
-  gap: 8.31px;
+  gap: 6.43px;
   position: absolute;
-  top: 60px;
-  left: 0;
+  top: 105px;
+  left: 34px;
 }
 
-.form-sect .text-area {
+.form-contact .text-area {
   position: absolute;
-  width: 678px;
-  height: 344px;
-  top: 227px;
-  left: 0;
-  border-radius: 37.77px;
-  border: 0.76px solid;
+  width: 525px;
+  height: 266px;
+  top: 217px;
+  left: 34px;
+  border-radius: 33.05px;
+  border: 0.66px solid;
   border-color: #212121;
 }
 
-.form-sect .send-BTN {
+.form-contact .send-BTN {
   display: flex;
   flex-direction: column;
-  width: 341px;
+  width: 254px;
   align-items: flex-start;
-  gap: 7.55px;
-  padding: 7.55px;
+  gap: 5.61px;
+  padding: 5.61px;
   position: absolute;
-  top: 592px;
-  left: 168px;
+  top: 518px;
+  left: 170px;
 }
 
-.form-sect .send-BTN-2 {
+.form-contact .send-BTN-2 {
   position: relative;
   align-self: stretch;
   width: 100%;
-  height: 71.01px;
+  height: 52.75px;
   background-color: #212121;
-  border-radius: 37.77px;
-  border: 0.76px solid;
+  border-radius: 28.06px;
+  border: 0.56px solid;
 }
 
-.form-sect .text-wrapper-2 {
+.form-contact .text-wrapper-2 {
   position: absolute;
-  top: 30px;
-  left: 106px;
-  font-family: 'Quicksand-Bold', Helvetica;
+  top: 22px;
+  left: 79px;
+  font-family: 'Quicksand', sans-serif;
   font-weight: 700;
   color: #ffffff;
-  font-size: 18.1px;
+  font-size: 13.5px;
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.form-sect .getintouch-cont {
+.form-contact .getintouch-cont {
   display: flex;
   flex-direction: column;
-  width: 611px;
-  height: 723px;
+  width: 535px;
+  height: 537px;
   align-items: flex-end;
-  gap: 35.5px;
-  padding: 57.59px 26.82px;
+  gap: 16.63px;
+  padding: 50.39px 39.38px;
   position: absolute;
-  top: 0;
+  top: 48px;
   left: 0;
   background-color: #d8dfe9;
-  border-radius: 39.44px;
+  border-radius: 34.51px;
 }
 
-.form-sect .text-wrapper-3 {
+.form-contact .text-wrapper-3 {
   position: relative;
-  width: 542.73px;
-  height: 63.11px;
-  margin-top: -0.79px;
-  font-family: 'Josefin Sans-Bold', Helvetica;
+  width: 474.93px;
+  margin-top: -0.69px;
+  margin-left: -19.02px;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
   color: #000000;
-  font-size: 50.5px;
+  font-size: 44.2px;
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.form-sect .p {
-  position: relative;
-  width: 551.41px;
-  font-family: 'Quicksand-Bold', Helvetica;
+.form-contact .email-hello {
+  position: absolute;
+  width: 430px;
+  top: 122px;
+  left: 66px;
+  font-family: 'Quicksand', sans-serif;
   font-weight: 400;
   color: #000000;
-  font-size: 22.1px;
+  font-size: 19.3px;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.form-sect .span {
+.form-contact .span {
   font-weight: 700;
 }
 
-.form-sect .text-wrapper-4 {
-  font-family: 'Quicksand-Light', Helvetica;
+.form-contact .text-wrapper-4 {
+  font-family: 'Quicksand', sans-serif;
   font-weight: 300;
+}
+
+.form-contact .phone {
+  position: absolute;
+  width: 430px;
+  top: 187px;
+  left: 66px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 19.3px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.form-contact .whatsapp {
+  position: absolute;
+  width: 430px;
+  top: 253px;
+  left: 66px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 19.3px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.form-contact .operating-hours {
+  position: absolute;
+  width: 430px;
+  top: 318px;
+  left: 66px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 19.3px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.form-contact .location-online {
+  position: absolute;
+  width: 430px;
+  top: 384px;
+  left: 66px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 19.3px;
+  letter-spacing: 0;
+  line-height: normal;
 }
 </style>

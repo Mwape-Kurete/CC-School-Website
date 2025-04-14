@@ -7,14 +7,18 @@
           Have a question about our programs, enrolment, or certifications? Need help choosing the
           right course for your goals? Our team is here to help every step of the way.
         </p>
-        <p class="div">Reach out to us and we’ll get back to you within 24–48 hours.</p>
+        <p class="div bolded-extra">
+          Reach out to us and we’ll get back to you within 24–48 hours.
+        </p>
       </div>
-      <div class="contact-title"><p class="p">We’d Love to Hear From You</p></div>
+      <div class="contact-title"><p class="p">We’d Love to Hear From You!</p></div>
     </div>
   </div>
 </template>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Quicksand:wght@300..700&display=swap');
+
 .intro-block-contact {
   display: flex;
   flex-direction: column;
@@ -60,7 +64,7 @@
   width: 716.34px;
   height: 66.54px;
   margin-top: -0.82px;
-  font-family: 'Quicksand-Regular', Helvetica;
+  font-family: 'Quicksand', sans-serif;
   font-weight: 400;
   color: #000000;
   font-size: 19.7px;
@@ -73,7 +77,7 @@
   position: relative;
   width: 716.34px;
   height: 41.9px;
-  font-family: 'Quicksand-SemiBold', Helvetica;
+  font-family: 'Quicksand', sans-serif;
   font-weight: 600;
   color: #000000;
   font-size: 19.7px;
@@ -97,7 +101,7 @@
 .intro-block-contact .p {
   position: relative;
   width: 677.73px;
-  font-family: 'Josefin Sans-Regular', Helvetica;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
   color: #000000;
   font-size: 78px;
