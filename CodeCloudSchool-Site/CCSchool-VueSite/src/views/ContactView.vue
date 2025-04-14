@@ -1,19 +1,32 @@
+<script setup lang="ts">
+import ContactWelcome from '@/components/ContactWelcome.vue'
+import ContactForm from '@/components/ContactForm.vue'
+import FAQAccordion from '@/components/FAQ.vue'
+</script>
+
 <template>
-    <div class="contact">
-        <h1 class="text-3xl font-bold mb-4">Contact Page</h1>
-        <p class="text-lg">This is where users can conctat the services providers.</p>
+  <main class="container contact mx-auto px-4 py-8 md:px-8 lg:px-12 max-w-7xl">
+    <!-- Stack on mobile, side-by-side on desktop -->
+    <div class="flex flex-col lg:flex-row gap-8">
+      <div class="banner-intro lg:w-1/2">
+        <ContactWelcome />
+      </div>
+      <div class="form-section lg:w-1/2">
+        <ContactForm />
+      </div>
+      <div class="faq-section lg:w-1/2">
+        <FAQAccordion />
+      </div>
     </div>
-  </template>
+  </main>
+</template>
 
 <style>
-@media (min-width: 1024px) {
-  .contact {
-    min-height: 25vh;        /* Makes section at least full viewport height */
-    display: flex;            /* Enables flexbox layout */
-    align-items: center;      /* Vertically centers content */
-    padding-top: 5rem;        /* Adds 80px space below fixed navbar (adjust as needed) */
-    box-sizing: border-box;   /* Ensures padding is included in height calculation */
-    padding-left: 3rem; 
-  }
+.form-section {
+  margin-top: 25%;
+}
+
+.faq-section {
+  margin-top: 5%;
 }
 </style>
