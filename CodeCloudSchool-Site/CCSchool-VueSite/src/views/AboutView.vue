@@ -60,35 +60,36 @@ import SiteFooter from '@/components/SiteFooter.vue'
 
         <!-- Values Section -->
         <section class="about-values">
-            <h2 class="values-title">Our Core Values</h2>
+            <h2 class="values-title">Everything You Need To Know </h2>
               <div class="values-grid">
 
                   <div class="value-card">
-                    <div class="value-icon">🚀</div>
+                    <div class="value-icon">❋</div>
                     <h3> What We Offer</h3>
-                    <p>🎓 Career-Aligned Programs in Python, Web Dev, SEO, AWS, CompTIA, and more
-                          💼 Certifications from Global Bodies like Oracle, AWS, CompTIA, Meta, Webflow
-                          & ICDL
-                          󰳓 Experienced Instructors & Mentors who guide you every step of the way
-                          🚀 Capstone Projects to build your real-world portfolio
-                          💬 Live Support, Office Hours & Discussion Forums
-                          📈 Job-Readiness & Career Guidance integrated into every course</p>
+                    <p>
+                       Career-Aligned Programs in Python, Web Dev, SEO, AWS, CompTIA, and more<br><br>
+                        Certifications from Global Bodies like Oracle, AWS, CompTIA, Meta, Webflow
+                          & ICDL<br><br>
+                        Experienced Instructors & Mentors who guide you every step of the way<br><br>
+                        Capstone Projects to build your real-world portfolio<br><br>
+                        Live Support, Office Hours & Discussion Forums<br><br>
+                        Job-Readiness & Career Guidance integrated into every course</p>
                   </div>
                   <div class="value-card">
-                    <div class="value-icon">🌐</div>
+                    <div class="value-icon">❋</div>
                     <h3>Why Code & Cloud Academy?</h3>
-                    <p>🏡 Learn from Anywhere: 100% online with flexible schedules
-                        🌐 Globally Recognized Certifications that open international doors
-                        🧰 Project-Based Learning to help you build real-world confidence
-                        🤝 Mentorship & Community to keep you motivated
-                        📜 Results-Driven Curriculum created by industry pros</p>
+                    <p> Learn from Anywhere: 100% online with flexible schedules<br><br>
+                       Globally Recognized Certifications that open international doors<br><br>
+                        Project-Based Learning to help you build real-world confidence<br><br>
+                       Mentorship & Community to keep you motivated<br><br>
+                         Results-Driven Curriculum created by industry pros</p>
                   </div>
                   <div class="value-card">
-                    <div class="value-icon">💡</div>
+                    <div class="value-icon">❋</div>
                     <h3> Built By Tech Educators, For Career Changers</h3>
-                    <p>We know what it takes to break into tech — because we’ve been there. Our team includes
+                    <p>We know what it takes to break into tech  because we’ve been there. Our team includes
                         instructors, DevOps engineers, software developers, digital marketers, and cloud architects
-                        who’ve trained hundreds of students globally. We’ve poured our knowledge into creating
+                        who’ve trained hundreds of students globally.<br><br> We’ve poured our knowledge into creating
                         programs that are not only beginner-friendly, but also capable of getting you certified and
                         hired.</p>
                   </div>
