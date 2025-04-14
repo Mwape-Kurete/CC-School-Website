@@ -1,29 +1,22 @@
-<script setup>
+<script setup lang="ts">
+import ContactWelcome from '@/components/ContactWelcome.vue'
 import ContactForm from '@/components/ContactForm.vue'
-import Accordion from '@/components/Accordion.vue'
+import FAQAccordion from '@/components/FAQ.vue'
+import { ref } from 'vue'
+import InputText from 'primevue/inputtext'
+import Textarea from 'primevue/textarea'
+import Button from 'primevue/button'
 </script>
 
 <template>
-  <main class="container mx-auto px-4 py-8">
-    <div class="grid grid-cols-1 gap-8">
-      <!-- Info Section -->
-      <div class="col-span-full text-center">
-        <h1 class="text-4xl font-bold mb-4">We'd Love to Hear from You</h1>
-        <p class="text-lg mb-2">
-          Have a question about our programs, enrollment, or certifications?
-        </p>
-        <p class="italic">Reach out to us and we'll get back to you within 24-48 hours.</p>
+  <main class="container contact mx-auto px-4 py-8 md:px-8 lg:px-12 max-w-7xl">
+    <!-- Stack on mobile, side-by-side on desktop -->
+    <div class="flex flex-col lg:flex-row gap-8">
+      <div class="banner-intro lg:w-1/2">
+        <ContactWelcome />
       </div>
-
-      <!-- Form Section -->
-      <div class="col-span-full">
+      <div class="form lg:w-1/2">
         <ContactForm />
-      </div>
-
-      <!-- FAQ Section -->
-      <div class="col-span-full mt-12">
-        <h1 class="text-3xl font-bold mb-6">Frequently Asked Questions</h1>
-        <Accordion />
       </div>
     </div>
   </main>
