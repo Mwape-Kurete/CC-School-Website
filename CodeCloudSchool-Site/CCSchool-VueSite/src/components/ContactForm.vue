@@ -19,22 +19,31 @@
   <main class="contact-form container">
     <div class="form-contact mx-auto px-4 py-8 md:px-8 lg:px-12 max-w-7xl">
       <div class="form-sect">
-        <div class="form">
-          <div class="text-wrapper">Send A Message</div>
+        <form class="form">
+          <h2 class="text-wrapper">Send A Message</h2>
+
           <div class="name-txt-field">
-            <div class="div">Your Name</div>
-            <div class="text-area-details"></div>
+            <label class="div">Your Name</label>
+            <input type="text" class="text-area-details" name="name" required />
           </div>
+
           <div class="email-txt">
-            <div class="div">Your Email</div>
-            <div class="text-area-details"></div>
+            <label class="div">Your Email</label>
+            <input type="email" class="text-area-details" name="email" required />
           </div>
-          <div class="text-area"></div>
-          <div class="send-BTN">
+
+          <div class="text-area">
+            <label class="div">Your Message</label>
+            <textarea class="text-area-details" name="message" required></textarea>
+          </div>
+
+          <button type="submit" class="send-BTN">
             <div class="send-BTN-2"></div>
-            <div class="text-wrapper-2">Send Message!</div>
-          </div>
-        </div>
+            <span class="text-wrapper-2">Send Message!</span>
+          </button>
+        </form>
+
+        <!--Get in touch-->
         <div class="getintouch-cont">
           <div class="text-wrapper-3">Get In Touch*</div>
           <p class="email-hello">
@@ -68,6 +77,13 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Quicksand:wght@300..700&display=swap');
 
+input {
+  padding: 15px;
+}
+
+textarea {
+  padding: 15px;
+}
 .form-contact {
   width: 1522px;
   height: 835px;
@@ -156,12 +172,10 @@
 .form-contact .text-area {
   position: absolute;
   width: 525px;
-  height: 266px;
+  height: auto;
   top: 217px;
   left: 34px;
   border-radius: 33.05px;
-  border: 0.66px solid;
-  border-color: #212121;
 }
 
 .form-contact .send-BTN {
@@ -174,6 +188,8 @@
   position: absolute;
   top: 518px;
   left: 170px;
+  border: none;
+  background-color: transparent;
 }
 
 .form-contact .send-BTN-2 {
