@@ -1,3 +1,7 @@
+<script setup>
+const emit = defineEmits(['toggle-view'])
+</script>
+
 <template>
   <div class="hero-wrapper-courses">
     <div class="courses-container">
@@ -20,15 +24,15 @@
       </div>
 
       <div class="btngroupjump">
-        <div class="viewcoursebtn">
-          <a class="btnLinktoSections" href="#course">
-            <i class="view-courses">{ View Courses }</i></a
-          >
+        <div class="viewcoursebtn" @click="emit('toggle-view', 'courses')">
+          <a class="btnLinktoSections">
+            <i class="view-courses">{ View Courses }</i>
+          </a>
         </div>
-        <div class="viewcoursebtn">
-          <a class="btnLinktoSections" href="#journey">
-            <i class="view-courses">{ View Journey’s }</i></a
-          >
+        <div class="viewcoursebtn" @click="emit('toggle-view', 'journey')">
+          <a class="btnLinktoSections">
+            <i class="view-courses">{ View Journey’s }</i>
+          </a>
         </div>
       </div>
     </div>
@@ -41,6 +45,8 @@
 .hero-wrapper-courses {
   width: 100%;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 a.btnLinktoSections {
   text-decoration: none;
@@ -48,18 +54,20 @@ a.btnLinktoSections {
 }
 
 .viewcoursebtn:hover {
+  cursor: pointer;
   text-decoration: none;
   background-color: #f0f1a5;
   color: #000;
+  transition: all 0.5s ease-in-out;
 }
 
 .coursesheroimg-icon {
   position: absolute;
   top: 0px;
   left: 0px;
-  border-radius: 41.59px;
-  width: 753.1px;
-  height: 547.3px;
+  border-radius: 38.83px;
+  width: 703.1px;
+  height: 511px;
   object-fit: cover;
 }
 .course-s {
@@ -69,77 +77,74 @@ a.btnLinktoSections {
 .coursestitlesection {
   position: absolute;
   top: 0px;
-  left: 769.57px;
-  border-radius: 41.59px;
+  left: 718.47px;
+  border-radius: 38.83px;
   background-color: #1e1e1e;
-  width: 753.1px;
-  height: 254.1px;
+  width: 703.1px;
+  height: 237.3px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: 0px 51.4px;
+  padding: 0px 48px;
   box-sizing: border-box;
 }
 .transform-your-future {
-  width: 684.2px;
+  width: 638.8px;
   position: relative;
   display: inline-block;
-  height: 30.9px;
+  height: 28.8px;
   flex-shrink: 0;
 }
 .at-code {
-  width: 684.2px;
+  width: 638.8px;
   position: relative;
-  font-size: 20.58px;
+  font-size: 19.21px;
   font-weight: 300;
   display: inline-block;
-  height: 141px;
+  height: 131.6px;
   flex-shrink: 0;
 }
 .coursestitlebody {
   position: absolute;
-  top: 272.64px;
-  left: 769.57px;
-  border-radius: 41.59px;
+  top: 254.54px;
+  left: 718.47px;
+  border-radius: 38.83px;
   background-color: #f0f1a5;
-  width: 753.1px;
-  height: 274.7px;
+  width: 703.1px;
+  height: 256.5px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 19.5px 32.9px;
+  padding: 18.3px 30.7px;
   box-sizing: border-box;
-  gap: 16.5px;
-  font-size: 24.69px;
+  gap: 15.4px;
+  font-size: 23.05px;
   color: #212121;
   font-family: Quicksand;
 }
 .coursebox {
-  width: 1522.7px;
-  position: absolute;
-  margin: 0 !important;
-  top: 57.61px;
-  left: 77.16px;
-  height: 547.3px;
-  z-index: 0;
+  width: 100%;
+  max-width: 1421px;
+  height: 511px;
+  position: relative;
 }
+
 .hero-courses {
   width: 100%;
-  height: 662.6px;
+  max-width: 1440px;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  padding: 36px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 2rem;
   box-sizing: border-box;
   text-align: center;
-  font-size: 98.77px;
+  font-size: 92.21px;
   color: #fff;
   font-family: 'Josefin Sans';
+  margin-top: 100px;
 }
 
 .view-courses {
@@ -148,10 +153,11 @@ a.btnLinktoSections {
 }
 .viewcoursebtn {
   width: 753px;
+  margin-bottom: 5rem;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
   border-radius: 50px;
   background-color: #fff;
-  height: 89px;
+  height: 65px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -160,12 +166,12 @@ a.btnLinktoSections {
   box-sizing: border-box;
 }
 .btngroupjump {
-  position: relative;
-  width: 100%;
+  margin: 0 auto;
   display: flex;
+  justify-content: center;
+  width: 90%;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-start;
   gap: 17px;
   text-align: center;
   font-size: 32px;

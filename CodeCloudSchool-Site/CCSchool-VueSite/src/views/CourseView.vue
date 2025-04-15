@@ -1,15 +1,22 @@
 <script setup>
+import { ref } from 'vue'
 import Courses from '@/components/CourseContent.vue'
 import Journey from '@/components/Journies.vue'
 import Footer from '@/components/SiteFooter.vue'
 import Hero from '@/components/CoursesHero.vue'
+
+const currentView = ref('courses')
+
+function updateView(view) {
+  currentView.value = view
+}
 </script>
 
 <template>
   <main class="main-content">
-    <Hero />
-    <Courses id="course" />
-    <Journey id="journey" />
+    <Hero @toggle-view="updateView" />
+    <Courses v-if="currentView === 'courses'" />
+    <Journey v-else-if="currentView === 'journey'" />
     <Footer />
   </main>
 </template>
