@@ -1,12 +1,12 @@
 <template>
   <div class="allcourses-wrapper">
-    <div class="allcourses mx-auto px-4 py-8 md:px-8 lg:px-12 max-w-7xl">
+    <div class="allcourses">
       <!--courses start-->
 
       <!--Python-->
       <div class="course-wrapper">
         <div class="python">
-          <div class="coursecompcontinner grid place-items-center text-cente">
+          <div class="coursecompcontinner">
             <div class="title">
               <i class="python-django">Python & Django Web Development</i>
             </div>
@@ -1523,10 +1523,7 @@
 }
 .allcourses {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 5383.8px;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -2,12 +2,13 @@
 import ContactWelcome from '@/components/ContactWelcome.vue'
 import ContactForm from '@/components/ContactForm.vue'
 import FAQAccordion from '@/components/FAQ.vue'
+import Footer from '@/components/SiteFooter.vue'
 </script>
 
 <template>
-  <main class="container contact mx-auto px-4 py-8 md:px-8 lg:px-12 max-w-7xl">
+  <main class="container contactPage">
     <!-- Stack on mobile, side-by-side on desktop -->
-    <div class="flex flex-col lg:flex-row gap-8">
+    <div class="">
       <div class="banner-intro lg:w-1/2">
         <ContactWelcome />
       </div>
@@ -18,10 +19,17 @@ import FAQAccordion from '@/components/FAQ.vue'
         <FAQAccordion />
       </div>
     </div>
+    <div class="footer-sect">
+      <Footer />
+    </div>
   </main>
 </template>
 
 <style>
+.contactPage {
+  margin: 0 auto;
+  width: 100%;
+}
 .form-section {
   margin-top: 25%;
 }

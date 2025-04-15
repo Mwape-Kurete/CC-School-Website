@@ -17,7 +17,7 @@
 
 <template>
   <main class="contact-form container">
-    <div class="form-contact mx-auto px-4 py-8 md:px-8 lg:px-12 max-w-7xl">
+    <div class="form-contact">
       <div class="form-sect">
         <form class="form">
           <h2 class="text-wrapper">Send A Message</h2>
