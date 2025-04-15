@@ -1,50 +1,48 @@
 <script setup>
-import Hero from '@/components/CoursesHero.vue'
 import Courses from '@/components/CourseContent.vue'
 import Journey from '@/components/Journies.vue'
+import Footer from '@/components/SiteFooter.vue'
+import Hero from '@/components/CoursesHero.vue'
 </script>
 
 <template>
-  <main class="container contact mx-auto px-4 py-8 md:px-8 lg:px-12 max-w-7xl">
-    <div class="course flex flex-col lg:flex-row gap-8">
-      <div class="hero-sect lg:w-1/2">
-        <Hero />
-      </div>
-      <div class="course-sect lg:w-1/2" id="course">
-        <Courses />
-      </div>
-      <div class="journey-sect" id="journey">
-        <Journey />
-      </div>
-    </div>
+  <main class="main-content">
+    <Hero />
+    <Courses id="course" />
+    <Journey id="journey" />
+    <Footer />
   </main>
 </template>
 
 <style>
+/* Base styles for all screen sizes */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Spacing between sections */
+.main-content > * {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+/* Remove bottom margin from last element */
+.main-content > *:last-child {
+  margin-bottom: 0;
+}
+
+/* Desktop-specific adjustments */
 @media (min-width: 1024px) {
-  .course {
-    min-height: 25vh; /* Makes section at least full viewport height */
-    display: flex; /* Enables flexbox layout */
-    align-items: center; /* Vertically centers content */
-    padding-top: 5rem; /* Adds 80px space below fixed navbar (adjust as needed) */
-    box-sizing: border-box; /* Ensures padding is included in height calculation */
-    padding-left: 3rem;
-  }
-  .hero-sect {
-    width: 100%;
-    margin-bottom: 2%;
+  .main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
   }
 
-  .course-sec {
-    width: 100%;
-    margin: 0 auto;
-    margin-bottom: 2%;
-  }
-
-  .journey-sect {
-    margin: 0 auto;
-    margin-top: 10%;
-    margin-bottom: 2%;
+  .main-content > * {
+    margin-bottom: 3rem;
   }
 }
 </style>

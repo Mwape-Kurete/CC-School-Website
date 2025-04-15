@@ -1,9 +1,9 @@
 <script></script>
 
 <template>
-  <div class="accordion-inner-cont mx-auto px-4 py-8 md:px-8 lg:px-12 max-w-7xl">
+  <div class="accordion-inner-cont">
     <h1>Frequently Asked Questions. *</h1>
-    <div class="faq-wrapper mx-auto px-4 py-8 md:px-8 lg:px-12 max-w-7xl">
+    <div class="faq-wrapper">
       <div class="faqsection">
         <div class="faq">
           <div class="question">
@@ -96,6 +96,7 @@
   background-color: #212121;
   padding: 50px;
   height: auto;
+  border-radius: 50px;
 }
 h1 {
   font-size: 60px;

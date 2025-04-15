@@ -1,33 +1,35 @@
 <template>
-  <div class="courses-container px-4 py-8 md:px-8 lg:px-12 max-w-7xl">
-    <div class="hero-courses">
-      <div class="coursebox">
-        <img class="coursesheroimg-icon" alt="" src="../assets/coursesHeroImg.png" />
-        <div class="coursestitlesection">
-          <i class="course-s">[ COURSE_S ]</i>
-        </div>
-        <div class="coursestitlebody">
-          <b class="transform-your-future">Transform Your Future in Just 9 Months</b>
-          <div class="at-code">
-            At Code & Cloud Academy, we don’t just teach tech — we launch tech careers. Our 9-month
-            certification-driven programs combine practical learning with global industry-recognized
-            certifications. Whether you’re a marketer, developer, creative, or aspiring cloud
-            architect — we have a course designed just for you.
+  <div class="hero-wrapper-courses">
+    <div class="courses-container">
+      <div class="hero-courses">
+        <div class="coursebox">
+          <img class="coursesheroimg-icon" alt="" src="../assets/coursesHeroImg.png" />
+          <div class="coursestitlesection">
+            <i class="course-s">[ COURSE_S ]</i>
+          </div>
+          <div class="coursestitlebody">
+            <b class="transform-your-future">Transform Your Future in Just 9 Months</b>
+            <div class="at-code">
+              At Code & Cloud Academy, we don’t just teach tech — we launch tech careers. Our
+              9-month certification-driven programs combine practical learning with global
+              industry-recognized certifications. Whether you’re a marketer, developer, creative, or
+              aspiring cloud architect — we have a course designed just for you.
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="btngroupjump mx-auto">
-      <div class="viewcoursebtn">
-        <a class="btnLinktoSections" href="#course">
-          <i class="view-courses">{ View Courses }</i></a
-        >
-      </div>
-      <div class="viewcoursebtn">
-        <a class="btnLinktoSections" href="#journey">
-          <i class="view-courses">{ View Journey’s }</i></a
-        >
+      <div class="btngroupjump">
+        <div class="viewcoursebtn">
+          <a class="btnLinktoSections" href="#course">
+            <i class="view-courses">{ View Courses }</i></a
+          >
+        </div>
+        <div class="viewcoursebtn">
+          <a class="btnLinktoSections" href="#journey">
+            <i class="view-courses">{ View Journey’s }</i></a
+          >
+        </div>
       </div>
     </div>
   </div>
@@ -36,8 +38,18 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Quicksand:wght@300..700&display=swap');
 
+.hero-wrapper-courses {
+  width: 100%;
+  margin: 0 auto;
+}
 a.btnLinktoSections {
   text-decoration: none;
+  color: #000;
+}
+
+.viewcoursebtn:hover {
+  text-decoration: none;
+  background-color: #f0f1a5;
   color: #000;
 }
 
@@ -102,7 +114,7 @@ a.btnLinktoSections {
   gap: 16.5px;
   font-size: 24.69px;
   color: #212121;
-  font-family: 'Quicksand', sans-serif;
+  font-family: Quicksand;
 }
 .coursebox {
   width: 1522.7px;
@@ -115,7 +127,6 @@ a.btnLinktoSections {
 }
 .hero-courses {
   width: 100%;
-  position: relative;
   height: 662.6px;
   display: flex;
   flex-direction: row;
@@ -128,27 +139,7 @@ a.btnLinktoSections {
   text-align: center;
   font-size: 98.77px;
   color: #fff;
-  font-family: 'Josefin Sans', sans-serif;
-}
-
-.explore-courses {
-  position: relative;
-  font-weight: 300;
-}
-.marquesselement {
-  width: 100%;
-  position: relative;
-  box-sizing: border-box;
-  height: 105px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 27px 775px;
-  text-align: center;
-  font-size: 40px;
-  color: #000;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans';
 }
 
 .view-courses {
@@ -157,21 +148,16 @@ a.btnLinktoSections {
 }
 .viewcoursebtn {
   width: 753px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
   border-radius: 50px;
-  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
   background-color: #fff;
-  height: 65px;
+  height: 89px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: 24px 50px;
   box-sizing: border-box;
-}
-
-.viewcoursebtn:hover {
-  background-color: #f0f1a5;
-  transition: all 0.4s ease-in-out;
 }
 .btngroupjump {
   position: relative;
@@ -184,6 +170,6 @@ a.btnLinktoSections {
   text-align: center;
   font-size: 32px;
   color: #000;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans';
 }
 </style>

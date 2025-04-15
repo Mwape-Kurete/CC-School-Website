@@ -1,5 +1,5 @@
 <template>
-  <div class="intro-block-contact mx-auto px-4 py-8 md:px-8 lg:px-12 max-w-7xl">
+  <div class="intro-block-contact">
     <img class="contact-us-banner" src="../assets/ContactUsBanner.png" />
     <div class="info-cont-contact">
       <div class="copy-contact">
@@ -23,7 +23,7 @@
   display: flex;
   flex-direction: column;
   width: 1514px;
-  align-items: flex-end;
+  align-items: center;
   gap: 42px;
   position: relative;
   margin-top: 150px;
@@ -35,6 +35,7 @@
   width: 100%;
   height: 422px;
   object-fit: cover;
+  border-radius: 50px;
 }
 
 .intro-block-contact .info-cont-contact {
