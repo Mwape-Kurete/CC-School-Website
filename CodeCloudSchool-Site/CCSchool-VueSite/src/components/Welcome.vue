@@ -21,23 +21,7 @@
     </div>
   </div>
 
-  <div class="info-section">
-    <div class="title">
-      Learn In-Demand Tech Skills. <br />
-      Get Certified. <br />
-      Launch Your Career. *
-    </div>
-    <p>
-      Code & Cloud Academy is your gateway to the digital world. We offer fully online,
-      career-focused programs designed to take you from beginner to certified tech professional in
-      just 9 months. Whether you're looking to become a software developer, cloud architect, IT
-      technician, digital marketer, or web designer — we’ve built the roadmap, all you need to do is
-      start.
-      <img src="@/assets/header2.png" alt="Cloud + Code School" class="header-image2" />
-      - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-      - - - - - - - - - -
-    </p>
-  </div>
+
 </template>
 
 <style scoped>
