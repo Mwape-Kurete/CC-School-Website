@@ -6,7 +6,7 @@ import SiteFooter from '@/components/SiteFooter.vue'
     <!-- Hero Section -->
     <section class="about-hero">
       <div class="hero-content">
-          <h1 class="hero-title">👋 About Us</h1>
+          <h1 class="hero-title">❋ About Us</h1>
           <h2>Learn. Build. Certify. Launch.</h2><br>
 
             <p>At Code & Cloud Academy, we believe that quality tech education
